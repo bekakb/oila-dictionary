@@ -1,0 +1,21 @@
+intr='python\nizohli\nlugati\n'
+print(intr.upper())
+lugat={
+       'str':'string',
+       'int':'integer',
+       'float':'onlik son',
+       'append':'qoshish',
+       'del':'ochirish',
+       'clear':'tozalash',
+       }
+
+soz=input('kalit soazni kiriting >>> ')
+if soz in lugat:
+    natija=lugat.get(soz)
+    print (f'{soz} ning tarjimasi {natija} boladi')
+else:
+    print (f'{soz} sozini kirgizib ulgurmadila')
+
+
+
+
