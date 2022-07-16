@@ -1,0 +1,15 @@
+print("PYTHON\nIZOHLI\nLUGATI\n")
+lugat={
+       'int':',butun sonlar',
+       'float':'onlik sonlar',
+       'if':'shart tekshirish',
+       'else':'shart bajarilmagan',
+       'elif':'else va if qoshimchasi',
+       'True':'rost',
+       'False':'Yolgon',
+       'append':'qoshimcha',
+       'title':'birinchi harf kotta',
+       'lower':'hammasi kichkina'
+       }
+print(lugat.get(input('Python kodini kiriting>>> '),\
+                'bunaqasini kiritib ulgurmadila'))
