@@ -1,0 +1,12 @@
+otam={'ism':'Bahtiyor','ty':1954,'mal':'oliy', }
+onam={'ism':'Nigora','ty':1959,'mal':'oliy', }
+ukam={'ism':'Dilmurod','ty':1983,'mal':'oliy', }
+
+print(f"Otamning ismlari {otam['ism']},\
+ ma`lumotlari {otam['mal']},\n{otam['ty']} yilda tavlallud topganlar\n")
+print(f"Onamning ismlari {onam['ism']},\
+ ma`lumotlari {onam['mal']},\n{onam['ty']} yilda tavlallud topganlar\n")
+print(f"Ukamning ismlari {ukam['ism']},\
+ ma`lumotlari {ukam['mal']},\n{ukam['ty']} yilda tavlallud topganlar\n")
+ 
+ 
